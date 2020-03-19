@@ -1,0 +1,50 @@
+body{
+    height:100%;
+    width:100%;
+}
+.nav-links{
+    position: relative;
+    left:65%;
+}
+footer{
+    background-color: #707070;
+    
+}
+.fotter-img1{
+    height:150px;;
+}
+.fotter-img2{
+    height:100px;
+}
+.footer-txt{
+    font-size: 30px;
+    color: black;
+}
+.body{
+    background-color:#383838;
+    height:500px;
+}
+.txt{
+    color:white;
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+}
+.base{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons{
+    font-size: 30px;
+    color:white;
+    font-family: 'Noto Serif', serif;
+
+}
+@media(max-width:500px)
+{
+    .nav-links{
+        position: relative;
+        left:70%;
+    }
+} 
