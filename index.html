@@ -23,7 +23,7 @@
       
         <a class="navbar-brand" href="index.html">
           &nbsp;&nbsp;
-          <img src="ssg logo.png" alt="">
+          <img src="ssg logo.png" alt="LOGO" id="logo">
         </a>
 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
               <a class="nav-link" href="#">Home&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">How it works&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#abody">How it works&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Features&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
@@ -57,25 +57,40 @@
        </center>
      </div>
      <!-- prebody ends -->
-     <div class="body">
+     <div id="abody"></div>
+     <!-- start-how it works  -->
+     <div class="body" id="body">
+      <br>
+      <div class="howit"><center><h2><b>How it works</b></h2></center></div>
       <br>
        <div class="base">
-        <div>
-          <img src="steps.png" alt="STEPS"><br><br>  
-          <center class="icons">Step</center>
+        <div class="card text-white bg-transparent mb-3" style="width: 18rem;">
+          <img class="card-img-top" src="steps.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text"><center><h3><b>Step</b></h3></center></p>
+            <p class="card-text"><center>Install StepSetGo on your phone and start walking.</center></p>
+          </div>
         </div>
-        <div>
-          <img src="coins.png" alt="COINS"><br><br>
-          <center class="icons">Earn</center>
+        <div class="card text-white bg-transparent mb-3" style="width: 18rem;">
+          <img class="card-img-top" src="coins.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text"><center><h3><b>Earn</b></h3></center></p>
+            <p class="card-text"><center>1000 steps = 1 SSG Coin
+              1000 OUTDOOR steps = 1.25 SSG Coins</center></p>
+          </div>
         </div>
-        <div>
-          <img src="rewards.png" alt="OFFERS"><br><br>
-          <center class="icons">Redeem</center>
+        <div class="card text-white bg-transparent mb-3" style="width: 18rem;">
+          <img class="card-img-top" src="rewards.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text"><center><h3><b>Reward</b></center></p>
+            <p class="card-text"><center>Use your SSG Coins to get awesome rewards at the StepSetGo Bazaar.</center></p>
+          </div>
         </div>
        </div>
     </div>
+    <!-- end how it works -->
     <!-- footer begins-->
-     <footer>
+     <div class="footer">
       <center>
       <div class="footer">
         <a href="https://play.google.com/store/apps/details?id=com.pepkit.ssg&hl=en_IN" target="_blank" > 
@@ -91,7 +106,7 @@
         hello@stepsetgo.com<br>  
       </div> 
       </center>
-   </footer>
+    </div>
      <!-- footer ends-->
 
      
