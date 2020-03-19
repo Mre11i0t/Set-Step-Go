@@ -17,17 +17,23 @@ footer{
     height:100px;
 }
 .footer-txt{
-    font-size: 30px;
+    font-size: 15px;
     color: black;
+}
+.prebody{
+    background-color:#383838;
+    height: 100vh;
 }
 .body{
     background-color:#383838;
     height:500px;
 }
 .txt{
+    position: relative;
+    top: 30vh;
     color:white;
     font-size: 40px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
 }
 .base{
     flex-direction: row;
@@ -39,6 +45,8 @@ footer{
     font-size: 30px;
     color:white;
     font-family: 'Noto Serif', serif;
+    height: 200px;
+    width: 250px;
 
 }
 @media(max-width:500px)
