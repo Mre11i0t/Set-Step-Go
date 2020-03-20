@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="https://www.stepsetgo.com/images/ssg-rel-icon.png">
     <!--link to style sheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">  
     <!-- Google-font-stylesheet -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Step Set Go!!</title>
@@ -23,10 +23,10 @@
       
         <a class="navbar-brand" href="index.html">
           &nbsp;&nbsp;
-          <img src="ssg logo.png" alt="LOGO" id="logo">
+          <img src="ssg logo.png" alt="" id="logo">
         </a>
 
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -34,44 +34,77 @@
         <div class="nav-links">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#home">Home&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#abody">How it works&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#hiw">How it works&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Features&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#fethead">Features&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#Contact">Contact&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="aboutus.html">Devolopers&nbsp;&nbsp; <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
     </nav>
      <!-- navbar end  -->
-     <!-- prebody starts -->
-     <div class="prebody">
-       <center class="txt">
-        India's first App that <br>
-        reward you to get fit!<br>   
-       </center>
-     </div>
-     <!-- prebody ends -->
-     <div id="abody"></div>
-     <!-- start-how it works  -->
-     <div class="body" id="body">
+    <!-- start home -->
+    <div class="stage1" id="home"> 
+        <div>
+          <div class="texts">
+            <center>India's first App that <br>
+              reward you to get fit!<br>  </center>
+          </div>
+          <div class="footer">
+            <center><a href="https://play.google.com/store/apps/details?id=com.pepkit.ssg&hl=en_IN" target="_blank" > 
+              <img src="googleplay.png" alt="google playstore" class="fotter-img1">
+            </a>
+    
+            <a href="https://apps.apple.com/in/app/stepsetgo/id1434541801" target="_blank" >
+              <img src="iosstore.svg" alt="IOS app store" class="fotter-img2">
+            </a></center>
+          </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="mock1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="mock2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="mock3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="mock4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="mock5.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div> 
+    </div>
+      <!-- end home -->
+   <!-- start-how it works  --> 
+    <div class="stage2" id="hiw"> 
+     <div class="body1" id="body1">
       <br>
       <div class="howit"><center><h2><b>How it works</b></h2></center></div>
       <br>
        <div class="base">
-        <div class="card text-white bg-transparent mb-3" style="width: 18rem;">
+        <div class="card text-white bg-transparent mb-3" style="width: 18rem; border:1px solid #00ccff;">
           <img class="card-img-top" src="steps.png" alt="Card image cap">
           <div class="card-body">
             <p class="card-text"><center><h3><b>Step</b></h3></center></p>
             <p class="card-text"><center>Install StepSetGo on your phone and start walking.</center></p>
           </div>
         </div>
-        <div class="card text-white bg-transparent mb-3" style="width: 18rem;">
+        <div class="card text-white bg-transparent mb-3" style="width: 18rem; border:1px solid #00ccff;">
           <img class="card-img-top" src="coins.png" alt="Card image cap">
           <div class="card-body">
             <p class="card-text"><center><h3><b>Earn</b></h3></center></p>
@@ -79,7 +112,7 @@
               1000 OUTDOOR steps = 1.25 SSG Coins</center></p>
           </div>
         </div>
-        <div class="card text-white bg-transparent mb-3" style="width: 18rem;">
+        <div class="card text-white bg-transparent mb-3" style="width: 18rem; border:1px solid #00ccff;">
           <img class="card-img-top" src="rewards.png" alt="Card image cap">
           <div class="card-body">
             <p class="card-text"><center><h3><b>Reward</b></center></p>
@@ -88,25 +121,112 @@
         </div>
        </div>
     </div>
+  </div> 
     <!-- end how it works -->
-    <!-- footer begins-->
-     <div class="footer">
-      <center>
-      <div class="footer">
-        <a href="https://play.google.com/store/apps/details?id=com.pepkit.ssg&hl=en_IN" target="_blank" > 
-          <img src="googleplay.png" alt="google playstore" class="fotter-img1">
-        </a>
 
-        <a href="https://apps.apple.com/in/app/stepsetgo/id1434541801" target="_blank" >
-          <img src="iosstore.svg" alt="IOS app store" class="fotter-img2">
-        </a>
+    <!-- start features -->
+    <div id="fethead"><center><h1><b>Features</b></h1></center></div>
+    <div class= features id="features">
+      <div class="fet1">
+        <div class="card" style="width: 18rem;">
+          <img src="earn.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><center>Earn more outdoor</center></h5>
+            <p class="card-text"><center>Get coins at a 1.25x rate when you walk outdoors </center></p>
+          </div>
+        </div>
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img src="invite.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><center>Invite Friends</center></h5>
+            <p class="card-text"><center>Add your friends and compare your progress</center> </p>
+          </div>
+        </div>
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img src="bazar.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><center>Bazaar</center></h5>
+            <p class="card-text"><center>The Bazaar changes frequently to make sure you have fresh deals always! </center></p>
+          </div>
+        </div>
+        
       </div>
-      <div class="footer-txt">
-        For any Queries you can contact us at <br>
-        hello@stepsetgo.com<br>  
-      </div> 
-      </center>
+
+      <div class="fet2">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="f1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="f2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="f3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="f4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="f5.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="f6.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="fet3">
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img src="challange.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><center>Challenge your friends</center></h5>
+            <p class="card-text"><center>Compete every week with all the users on the application </center></p>
+          </div>
+        </div>
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img src="events.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><center>Events</center></h5>
+            <p class="card-text"><center>Regular events give you a chance to win high value products in a short time  </center></p>
+          </div>
+        </div>
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img src="levels.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><center>Levels</center></h5>
+            <p class="card-text"><center>Levels help you get regular with your walking habits. Level up and see the full colour of your app change</center> </p>
+          </div>
+        </div>
+        <br>
+      </div>
+      <br>
     </div>
+
+    <!-- end features -->
+       
+    <!-- footer begins-->
+     <footer>
+       <center>
+       <div class="footer-txt" id="Contact">
+        For any Queries you can contact us at <br>
+        hello@stepsetgo.com<br> 
+        <br> 
+        </div> 
+        <div class="social">
+          <div ><a href="https://www.facebook.com/stepsetgo" target="_blank"><img class="sc" src="fb.png" alt="facebook"></a></div>
+          <div ><a href="https://twitter.com/StepSetGo" target="_blank"><img class="sc" src="twitter.png" alt="twitter"></a></div>
+          <div ><a href="https://www.linkedin.com/company/stepsetgo/" target="_blank"><img class="sc" src="lk.png" alt="linkdein"></a></div>
+        </div>
+       </center>
+       
+   </footer>
      <!-- footer ends-->
 
      
@@ -114,6 +234,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- </div>   -->
   </body>
 </html>
